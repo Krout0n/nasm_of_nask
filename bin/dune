@@ -1,0 +1,6 @@
+(executable
+ (public_name nasm_of_nask)
+ (name main)
+ (libraries core codegen syntax)
+ (preprocess
+  (pps ppx_deriving.show ppx_deriving.eq)))

@@ -1,0 +1,7 @@
+_build/
+*.merlin
+# テスト用に使っているファイル
+kuru*
+hellos*
+*.nasm
+*.nas
